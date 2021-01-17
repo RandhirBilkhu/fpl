@@ -10,7 +10,8 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # List the first level UI elements here 
     fluidPage(
-      h1("fpl")
+      h1("fpl"),
+      mod_player_comparison_ui("player_comparison_ui")
     )
   )
 }
